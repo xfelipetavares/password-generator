@@ -2,18 +2,28 @@
   "name": "password-generator",
   "version": "1.0.0",
   "description": "Esse app te ajuda, criando senhas seguras de 21 caracteres de todos os tipos.",
-  "main": "index.js",
+  "main": "index.html",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite --host&",
+    "esjs": "eslint ./src"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xfelipetavares/password-generator.git"
-  },
-  "author": "",
+  "repository": "git+https://github.com/xfelipetavares/password-generator.git",
+  "author": "Felipe Tavares <xfelipetavares@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/xfelipetavares/password-generator/issues"
   },
-  "homepage": "https://github.com/xfelipetavares/password-generator#readme"
+  "homepage": "https://github.com/xfelipetavares/password-generator#readme",
+  "dependencies": {
+    "nanoid": "^4.0.0",
+    "vite": "^3.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0"
+  }
 }
