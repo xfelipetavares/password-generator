@@ -21,6 +21,10 @@ h2 {
   padding: 10px;
   color: rgb(0, 236, 0);
 }
+h2:hover{
+  cursor: pointer;
+  background-color: rgb(146, 146, 146);
+}
 button {
   background-color: white;
   border: none;
