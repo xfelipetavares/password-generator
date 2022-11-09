@@ -1,0 +1,19 @@
+{
+  "name": "password-generator",
+  "version": "1.0.0",
+  "description": "Esse app te ajuda, criando senhas seguras de 21 caracteres de todos os tipos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xfelipetavares/password-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xfelipetavares/password-generator/issues"
+  },
+  "homepage": "https://github.com/xfelipetavares/password-generator#readme"
+}
