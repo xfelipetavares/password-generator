@@ -16,7 +16,9 @@
   },
   "homepage": "https://github.com/xfelipetavares/password-generator#readme",
   "dependencies": {
+    "clipboard-copy": "^4.0.1",
     "nanoid": "^4.0.0",
+    "toastify-js": "^1.12.0",
     "vite": "^3.2.3"
   },
   "devDependencies": {
