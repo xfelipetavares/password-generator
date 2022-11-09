@@ -2,7 +2,8 @@
   "name": "password-generator",
   "version": "1.0.0",
   "description": "Esse app te ajuda, criando senhas seguras de 21 caracteres de todos os tipos.",
-  "main": "index.js",
+  "main": "index.html",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/xfelipetavares/password-generator/issues"
   },
-  "homepage": "https://github.com/xfelipetavares/password-generator#readme"
+  "homepage": "https://github.com/xfelipetavares/password-generator#readme",
+  "dependencies": {
+    "nanoid": "^4.0.0",
+    "vite": "^3.2.3"
+  }
 }
